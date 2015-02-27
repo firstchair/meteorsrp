@@ -1,0 +1,30 @@
+<head>
+  <title>CodeBuddy</title>
+</head>
+
+<body>
+
+    {{>main}}
+</body>
+
+<template name="main">
+    {{#if snippet_selected}}
+
+        <div class="container-fluid">
+                       <div id="editor">
+                <textarea id="snippet">{{snippet.content}}</textarea>
+            </div>
+                        <p class="share">Deel via deze link <a href="{{url}}">{{url}}</a> je code!</p>
+                                   <p class="back"><a href="http://localhost:3000/">Back</a></p>
+        </div>
+        
+    {{else}}
+        <div class="container-fluid">
+           <div id="bg"></div>
+            <div class="hero-unit welkom">
+                <p>CodeBuddy</p>
+                <button class="btn btn-primary btn-large" id="startSession">Start the nerding together</button>
+            </div>
+        </div>
+    {{/if}}
+</template>

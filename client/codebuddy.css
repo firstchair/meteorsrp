@@ -1,0 +1,61 @@
+body {
+}
+
+#bg {
+	content: "";
+	background: url(coder.jpg);
+	opacity: 0.9;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+.welkom {
+	text-align: center;
+	background: transparent;
+}
+.welkom p {
+	font-size: 70px;
+	color: #ffffff;
+}
+#startSession {
+	margin-top: 100px;
+}
+#editor {
+	position: absolute;
+	top: 150px;
+	bottom: 10%;
+	left: 15%;
+	right: 15%;
+	padding: 10px 18px 18px 10px;
+	background-color: #F5F5F5;
+	border: 1px solid #DEDEDE;
+	box-shadow: 3px 2px 5px #8E8E8E;
+}
+#snippet {
+	color: #FFFFFF;
+	background-color: #000000;
+	border: 1px solid #DEDEDE;
+	width: 100%;
+	height: 100%;
+	padding: 3px;
+	font-family: Courier New, monospace;
+	font-size: 15px;
+	outline: none;
+}
+#snippet:focus {
+	box-shadow: none;
+	outline: 0 none;
+}
+.share {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+}
+.back {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+}

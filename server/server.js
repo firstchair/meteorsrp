@@ -1,0 +1,1 @@
+Snippets = new Meteor.Collection('snippets');
